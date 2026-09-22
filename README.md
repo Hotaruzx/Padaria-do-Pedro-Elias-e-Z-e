@@ -1,48 +1,33 @@
-Vou ser sincero, nao entendi o que era pra ser adicionado em README.md, então vou por o que eu acho certo KKKK
-
 # Projeto Lanchonete
 
-## Sobre o projeto
+## Questionário
 
-Projeto de um sistema WEB para uma pequena lanchonete, desenvolvido utilizando HTML e CSS e versionado com Git e GitHub.
+### 1. Qual é a diferença entre Working Directory, Staging Area e Repository?
 
-## O que foi desenvolvido
+O **Working Directory** é o local onde os arquivos do projeto ficam e onde fazemos as alterações.
 
-### Etapa 1 — Estrutura inicial
+A **Staging Area** é a área onde colocamos os arquivos que queremos incluir no próximo commit.
 
-Foi criada a estrutura inicial do projeto, contendo:
+O **Repository** é onde o Git armazena os commits e o histórico das alterações do projeto.
 
-* `README.md`
-* `docs/requisitos.md`
-* `src/index.html`
+### 2. Qual é a diferença entre `git commit` e `git push`?
 
-### Etapa 2 — Documentação dos produtos
+O **git commit** registra as alterações no histórico do repositório local.
 
-Foi criada a documentação da funcionalidade de produtos:
+O **git push** envia os commits que estão no repositório local para o repositório remoto, como o GitHub.
 
-* `docs/produtos.md`
+### 3. É possível realizar vários commits antes de executar um `git push`? Explique.
 
-### Etapa 3 — Página de produtos
+Sim. É possível realizar vários commits localmente antes de executar o git push. Cada commit registra uma alteração no histórico local. Depois, o git push pode enviar todos esses commits para o repositório remoto.
 
-Foi criada a página HTML de produtos:
+### 4. Por que é interessante realizar commits pequenos e descritivos?
 
-* `src/produtos.html`
+Porque commits pequenos e com mensagens descritivas facilitam a organização e a compreensão do histórico do projeto. Assim, fica mais fácil identificar o que foi alterado em cada etapa e localizar alterações específicas.
 
-### Etapa 4 — Estilização
+### 5. O que acontece com os commits locais quando ainda não executamos o `git push`?
 
-Foi criado o arquivo CSS:
+Os commits continuam armazenados no repositório local. Eles fazem parte do histórico local do Git, mas ainda não foram enviados para o repositório remoto. Eles serão enviados ao GitHub quando executarmos o git push.
 
-* `src/style.css`
+### 6. Como verificar, pelo GitHub, se os commits foram enviados corretamente?
 
-Também foi realizada a ligação do CSS com a página `index.html`.
-
-### Etapa 5 — Página de pedidos
-
-Foram criados os arquivos relacionados aos pedidos:
-
-* `src/pedidos.html`
-* `docs/pedidos.md`
-
-## Versionamento
-
-Durante o desenvolvimento, as alterações foram organizadas utilizando Git, realizando commits para registrar cada etapa do projeto e utilizando o GitHub como repositório remoto.
+É possível verificar acessando o repositório no GitHub e conferindo o histórico de commits. Na página do repositório, podemos verificar a quantidade de commits e acessar o histórico de alterações para confirmar que os commits realizados localmente foram enviados para o repositório remoto.
